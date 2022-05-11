@@ -8,7 +8,7 @@ function Nav () {
             <img src={"/navBackground.jpg"} className="h-96  z-0 mx-auto object-cover"/>
             <div className="flex flex-row flex-wrap justify-center items-center
                             z-1 absolute top-0 left-0 right-0  
-                            w-4/5 md:w-full mx-auto pt-4 ">
+                            w-4/5 md:w-full mx-auto pt-4 sm:pt-1 ">
                 <div className='bg-blackRgba w-80 md:w-60  md:ml-5 h-10 flex flex-row justify-between items-center rounded-xl px-4'>
                     <input type="text" placeholder="Search Product" className="bg-transparent focus:outline-none w-4/5 placeholder-white text-white"/>
                     <img src="/Asset 32.svg" className="w-4 h-4"/>
