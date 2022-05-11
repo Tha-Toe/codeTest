@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Card from "../card/Card";
+import PromotionCard from "./PromotionCard";
 import {motion} from "framer-motion";
 import { useRef,useEffect } from "react";
 
@@ -24,7 +24,7 @@ function Promotion() {
                         dragConstraints = {{right: 0, left: -width}}
                 >
                     {productList.map((e)=>
-                        <Card />
+                        <PromotionCard />
                     )}
                 </motion.div>
             </motion.div>        

@@ -21,7 +21,7 @@ function Categories (){
                     <img src={e.img} className="h-24 w-24 md:h-16 md:w-16 sm:h-10 sm:w-10"/>
                     <div className="sm:text-xs sm:h-12 sm:w-12">Sample Category</div>
                 </div>)}
-                <div className=" bg-yellow mobile:p-1 flex flex-col items-center text-gray cursor-pointer hover:bg-lightGray p-10 md:p-5 sm:p-2 rounded-full">
+                <div className=" mobile:p-1 flex flex-col items-center text-gray cursor-pointer hover:bg-lightGray p-10 md:p-5 sm:p-2 rounded-full">
                     <FontAwesomeIcon icon={faEllipsis} className="text-3xl sm:text-2xl cursor-pointer"/>
                     <div className="sm:text-xs ">View All</div>
                 </div>

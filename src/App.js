@@ -10,6 +10,7 @@ import Laptop from './component/laptop/Laptop';
 import Tablet from './component/tablet/Tablet';
 import Brand from './component/brand/Brand';
 import Car from './component/car/Car';
+import Bottom from './component/bottom/Bottom';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Phone />
       <Laptop />
       <Tablet />
+      <Bottom />
     </div>
   );
 }
