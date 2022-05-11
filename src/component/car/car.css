@@ -1,0 +1,6 @@
+.scrollBar::-webkit-scrollbar{
+    display: none;
+}
+.pevent{
+    pointer-events: none;
+}
